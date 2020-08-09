@@ -4,7 +4,7 @@
   "description": "this is a generic graphql schema for a store",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publicate": "./helper.sh publish"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "dependencies": {
     "apollo-server-lambda": "^2.16.1",
     "graphql": "^15.3.0"
+  },
+  "engines": {
+    "node": ">=4.2.4"
   }
 }
