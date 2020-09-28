@@ -82,6 +82,19 @@ test(){
   return $__r
 }
 
+package_function(){
+  info "[package_function] ..."
+  _pwd=`pwd`
+  local __r=0
+  cd "$this_folder"
+
+
+
+  cd "$_pwd"
+  info "[package_function] ...done."
+  return $__r
+}
+
 usage() {
   cat <<EOM
   usage:
